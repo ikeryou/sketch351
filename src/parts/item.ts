@@ -32,7 +32,7 @@ export class Item extends MyObject3D {
         vertexShader:vt,
         fragmentShader:fg,
         transparent:true,
-        // depthTest:false,
+        depthTest:false,
         side: DoubleSide,
         // wireframe: this._id % 2 == 0,
         uniforms:{
